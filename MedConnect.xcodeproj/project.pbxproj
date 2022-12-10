@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		471342DA2940F4DB00B18008 /* MedConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471342D92940F4DB00B18008 /* MedConnectApp.swift */; };
-		471342DC2940F4DB00B18008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471342DB2940F4DB00B18008 /* ContentView.swift */; };
+		471342DC2940F4DB00B18008 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471342DB2940F4DB00B18008 /* LoginView.swift */; };
 		471342DE2940F4DE00B18008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471342DD2940F4DE00B18008 /* Assets.xcassets */; };
 		471342E12940F4DE00B18008 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471342E02940F4DE00B18008 /* Preview Assets.xcassets */; };
+		471342E929410D9D00B18008 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 471342E829410D9D00B18008 /* FirebaseAuth */; };
+		471342EB29410D9D00B18008 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 471342EA29410D9D00B18008 /* FirebaseFirestore */; };
+		471342ED29410D9D00B18008 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 471342EC29410D9D00B18008 /* FirebaseFirestoreSwift */; };
+		471342EF29410D9D00B18008 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 471342EE29410D9D00B18008 /* FirebaseStorage */; };
+		471342F1294124AE00B18008 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 471342F0294124AE00B18008 /* GoogleService-Info.plist */; };
+		47671FAA29432B690060E987 /* DoctorNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47671FA929432B690060E987 /* DoctorNotesView.swift */; };
+		4777A9612943748D004C044D /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777A9602943748D004C044D /* Notes.swift */; };
+		4777A963294399FD004C044D /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777A962294399FD004C044D /* NotesViewModel.swift */; };
+		4777A96529439AEA004C044D /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777A96429439AEA004C044D /* NotesListView.swift */; };
+		478BB64929426D9700F68BF2 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478BB64829426D9700F68BF2 /* Patient.swift */; };
+		478BB64B29426F5F00F68BF2 /* PatientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478BB64A29426F5F00F68BF2 /* PatientDetailView.swift */; };
+		478BB64D29429E4E00F68BF2 /* PatientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478BB64C29429E4E00F68BF2 /* PatientViewModel.swift */; };
+		478BB6512942A3EA00F68BF2 /* DoctorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478BB6502942A3EA00F68BF2 /* DoctorDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		471342D62940F4DB00B18008 /* MedConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		471342D92940F4DB00B18008 /* MedConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedConnectApp.swift; sourceTree = "<group>"; };
-		471342DB2940F4DB00B18008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		471342DB2940F4DB00B18008 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		471342DD2940F4DE00B18008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		471342E02940F4DE00B18008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		471342F0294124AE00B18008 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		47671FA929432B690060E987 /* DoctorNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorNotesView.swift; sourceTree = "<group>"; };
+		4777A9602943748D004C044D /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		4777A962294399FD004C044D /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		4777A96429439AEA004C044D /* NotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListView.swift; sourceTree = "<group>"; };
+		478BB64829426D9700F68BF2 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		478BB64A29426F5F00F68BF2 /* PatientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailView.swift; sourceTree = "<group>"; };
+		478BB64C29429E4E00F68BF2 /* PatientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewModel.swift; sourceTree = "<group>"; };
+		478BB6502942A3EA00F68BF2 /* DoctorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471342E929410D9D00B18008 /* FirebaseAuth in Frameworks */,
+				471342EF29410D9D00B18008 /* FirebaseStorage in Frameworks */,
+				471342EB29410D9D00B18008 /* FirebaseFirestore in Frameworks */,
+				471342ED29410D9D00B18008 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +78,17 @@
 			isa = PBXGroup;
 			children = (
 				471342D92940F4DB00B18008 /* MedConnectApp.swift */,
-				471342DB2940F4DB00B18008 /* ContentView.swift */,
+				478BB64829426D9700F68BF2 /* Patient.swift */,
+				4777A9602943748D004C044D /* Notes.swift */,
+				478BB64C29429E4E00F68BF2 /* PatientViewModel.swift */,
+				478BB64A29426F5F00F68BF2 /* PatientDetailView.swift */,
+				4777A962294399FD004C044D /* NotesViewModel.swift */,
+				4777A96429439AEA004C044D /* NotesListView.swift */,
+				478BB6502942A3EA00F68BF2 /* DoctorDetailView.swift */,
+				47671FA929432B690060E987 /* DoctorNotesView.swift */,
+				471342DB2940F4DB00B18008 /* LoginView.swift */,
 				471342DD2940F4DE00B18008 /* Assets.xcassets */,
+				471342F0294124AE00B18008 /* GoogleService-Info.plist */,
 				471342DF2940F4DE00B18008 /* Preview Content */,
 			);
 			path = MedConnect;
@@ -83,6 +118,12 @@
 			dependencies = (
 			);
 			name = MedConnect;
+			packageProductDependencies = (
+				471342E829410D9D00B18008 /* FirebaseAuth */,
+				471342EA29410D9D00B18008 /* FirebaseFirestore */,
+				471342EC29410D9D00B18008 /* FirebaseFirestoreSwift */,
+				471342EE29410D9D00B18008 /* FirebaseStorage */,
+			);
 			productName = MedConnect;
 			productReference = 471342D62940F4DB00B18008 /* MedConnect.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +152,9 @@
 				Base,
 			);
 			mainGroup = 471342CD2940F4DB00B18008;
+			packageReferences = (
+				471342E729410D9D00B18008 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 471342D72940F4DB00B18008 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +171,7 @@
 			files = (
 				471342E12940F4DE00B18008 /* Preview Assets.xcassets in Resources */,
 				471342DE2940F4DE00B18008 /* Assets.xcassets in Resources */,
+				471342F1294124AE00B18008 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +182,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471342DC2940F4DB00B18008 /* ContentView.swift in Sources */,
+				478BB6512942A3EA00F68BF2 /* DoctorDetailView.swift in Sources */,
+				47671FAA29432B690060E987 /* DoctorNotesView.swift in Sources */,
+				478BB64929426D9700F68BF2 /* Patient.swift in Sources */,
+				478BB64D29429E4E00F68BF2 /* PatientViewModel.swift in Sources */,
+				471342DC2940F4DB00B18008 /* LoginView.swift in Sources */,
+				4777A963294399FD004C044D /* NotesViewModel.swift in Sources */,
 				471342DA2940F4DB00B18008 /* MedConnectApp.swift in Sources */,
+				478BB64B29426F5F00F68BF2 /* PatientDetailView.swift in Sources */,
+				4777A96529439AEA004C044D /* NotesListView.swift in Sources */,
+				4777A9612943748D004C044D /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +323,7 @@
 				DEVELOPMENT_TEAM = W5U9XP5JZA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MedConnect;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -283,6 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hurley.MedConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +354,7 @@
 				DEVELOPMENT_TEAM = W5U9XP5JZA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MedConnect;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hurley.MedConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,6 +396,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		471342E729410D9D00B18008 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		471342E829410D9D00B18008 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 471342E729410D9D00B18008 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		471342EA29410D9D00B18008 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 471342E729410D9D00B18008 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		471342EC29410D9D00B18008 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 471342E729410D9D00B18008 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		471342EE29410D9D00B18008 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 471342E729410D9D00B18008 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 471342CE2940F4DB00B18008 /* Project object */;
 }
